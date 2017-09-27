@@ -1,0 +1,16 @@
+<div *ngFor="let comment of (post$ | async)?.comments" class="row">
+  <div class="col-lg-5 col-md-8 col-sm-12 col-xs-12">
+    <div class="card">
+      <div class="card-header">
+        {{comment.email}}
+      </div>
+      <div class="card-block">
+        <div class="card-text">
+          {{comment.body}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br />
+<button class="btn btn-primary" (click)="goBack()">Back to Posts</button>
