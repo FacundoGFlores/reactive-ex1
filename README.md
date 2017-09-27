@@ -9,7 +9,7 @@ This is an exercise for reactive programming course, it is using the seed projec
 
 1. Clone the seed app:
 
-`https://github.com/FacundoGFlores/reactive-ex1`
+`https://github.com/FacundoGFlores/reactive-ex1.git`
 
 2. Install the dependencies:
 
